@@ -11,3 +11,13 @@ server.use(express.json());
 server.use('/api/users', UserRouter);
 
 module.exports = server;
+
+//ASI
+
+// function getData() {
+//     return
+//     {
+//         name: 'frodo'
+//     };
+// }
+// console.log(typeof getData()); 
